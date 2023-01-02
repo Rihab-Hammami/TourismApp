@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.SousseHotelsFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sh1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sh1"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_sh1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/sh1"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Mövenpick Resort-Marine Spa Sousse"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_sh1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/sh1"
+                    android:src="@drawable/etoile"></ImageView>
+
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sh2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sh2"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_sh2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/sh2"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Sousse Palace Hotel-Spa">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/etoile"
+                    android:layout_below="@+id/txt_sh2"
+                    android:layout_toRightOf="@+id/sh2"
+                    android:layout_marginLeft="15dp"></ImageView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sh3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sh3"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_sh3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/sh3"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Jaz Tour Khalef">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/etoile"
+                    android:layout_below="@+id/txt_sh3"
+                    android:layout_toRightOf="@+id/sh3"
+                    android:layout_marginLeft="15dp"></ImageView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sh4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sh4"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_sh4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/sh4"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Dar Antonia">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/etoile"
+                    android:layout_below="@+id/txt_sh4"
+                    android:layout_toRightOf="@+id/sh4"
+                    android:layout_marginLeft="15dp"></ImageView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sh5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sh5"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_sh5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/sh5"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Hotel Marhaba Beach">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/etoile"
+                    android:layout_below="@+id/txt_sh5"
+                    android:layout_toRightOf="@+id/sh5"
+                    android:layout_marginLeft="15dp"></ImageView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

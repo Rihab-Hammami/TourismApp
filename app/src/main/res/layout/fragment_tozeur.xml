@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.TozeurHotelsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/tz1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/tz1"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_tz1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/tz1"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Anantara Sahara-Tozeur Resort-Villas"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_tz1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/H1"
+                    android:src="@drawable/etoile"></ImageView>
+
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/tz2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/tz2"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_tz2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/tz2"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="El Mouradi Tozeur">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/etoile"
+                    android:layout_below="@+id/txt_tz2"
+                    android:layout_toRightOf="@+id/tz2"
+                    android:layout_marginLeft="15dp"></ImageView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/tz3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/tz3"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_tz3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/tz3"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Dar Saida Beya ">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/etoile"
+                    android:layout_below="@+id/txt_tz3"
+                    android:layout_toRightOf="@+id/tz3"
+                    android:layout_marginLeft="15dp"></ImageView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/tz4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/tz4"
+                    android:layout_marginTop="10dp"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_tz4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/tz4"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Résidence El Arich">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/etoile"
+                    android:layout_below="@+id/txt_tz4"
+                    android:layout_toRightOf="@+id/tz4"
+                    android:layout_marginLeft="15dp"></ImageView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/tz5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/tz5"></ImageView>
+
+                <TextView
+                    android:id="@+id/txt_tz5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/tz5"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Palm Beach Palace">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tz5"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-50dp"
+                    android:layout_toRightOf="@+id/tz5"
+                    android:src="@drawable/etoile"></ImageView>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

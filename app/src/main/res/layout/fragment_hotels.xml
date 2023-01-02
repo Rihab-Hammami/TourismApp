@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HotelsFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="15dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/villableu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/villa_bleu"></ImageView>
+
+            <TextView
+                android:id="@+id/txt_villableu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@+id/villableu"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="la Villa Bleue"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txt_villableu"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/villableu"
+                android:src="@drawable/etoile"></ImageView>
+
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="15dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/darfatma"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/dar_fatma"></ImageView>
+
+            <TextView
+                android:id="@+id/txt_darfatma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@+id/darfatma"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Dar Fatma">
+
+            </TextView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/etoile"
+                android:layout_below="@+id/txt_darfatma"
+                android:layout_toRightOf="@+id/darfatma"
+                android:layout_marginLeft="15dp"></ImageView>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="15dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bouferes"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bou_feres"></ImageView>
+
+            <TextView
+                android:id="@+id/txt_bouferes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@+id/bouferes"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Bou Fares">
+
+            </TextView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/etoile"
+                android:layout_below="@+id/txt_bouferes"
+                android:layout_toRightOf="@+id/bouferes"
+                android:layout_marginLeft="15dp"></ImageView>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="15dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dedine"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/dedine"></ImageView>
+
+            <TextView
+                android:id="@+id/txt_dedine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@+id/dedine"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="La Maison Dedine">
+
+            </TextView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/etoile"
+                android:layout_below="@+id/txt_dedine"
+                android:layout_toRightOf="@+id/dedine"
+                android:layout_marginLeft="15dp"></ImageView>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="15dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/artiste"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/artiste"></ImageView>
+
+            <TextView
+                android:id="@+id/txt_artiste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@+id/artiste"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="La Maison De L'artiste">
+
+            </TextView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/etoile"
+                android:layout_below="@+id/txt_artiste"
+                android:layout_toRightOf="@+id/artiste"
+                android:layout_marginLeft="15dp"></ImageView>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

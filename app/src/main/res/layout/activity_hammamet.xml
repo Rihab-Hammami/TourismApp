@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HammametActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/scrollImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/linearImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:padding="15dp"
+                android:src="@drawable/hammamet"></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/sidibou3"
+                android:padding="15dp"
+                android:adjustViewBounds="true"></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/sidibou5"
+                android:padding="15dp"
+                android:adjustViewBounds="true"></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/sidibou4"
+                android:padding="15dp"
+                android:adjustViewBounds="true"></ImageView>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iconflech"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="25dp"
+            android:onClick="true"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/ic_baseline_chevron_left_24"
+            tools:ignore="OnClick"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@+id/iconflech"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_sidibou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollImages"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/bevan"
+        android:text="Sidi-Bou-Said"
+        android:layout_marginLeft="15dp"></TextView>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_layout"
+        android:layout_below="@id/txt_sidibou"
+        android:layout_marginTop="15dp">
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top Hotels"
+            android:fontFamily="@font/bevan"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coffe"
+            android:fontFamily="@font/bevan">
+
+        </com.google.android.material.tabs.TabItem>
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager"
+        android:layout_below="@+id/tab_layout">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+</RelativeLayout>
